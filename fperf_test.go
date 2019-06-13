@@ -54,8 +54,7 @@ func (i integer) methodWithDefer() {
 	defer MeasureRunTime(report)()
 }
 
-func (i integer) method(ii int) {
-	panic(ii)
+func (i integer) method() {
 }
 
 func report(name string, duration time.Duration) {
