@@ -1,6 +1,12 @@
 # fperf
 This is a module allowing to measure run time of functions and methods in Go.
 
+# Installation
+
+```
+go get github.com/avegner/fperf
+```
+
 # How to Measure
 There are 2 options to measure run time:
 
